@@ -1,0 +1,250 @@
+/*通用设置*/
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, input, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	text-align: center;
+}
+
+#header {
+	background: url(../img/top_bg.jpg) no-repeat;
+	width: 800px;
+	height: 215px;
+	margin: 0px auto;
+}
+
+#header ul {
+	position: relative;
+	left: 45px;
+	top: 66px;
+}
+
+#header ul li {
+	display: inline-block;
+	width: 87px;
+}
+
+#header ul li a {
+	font-size: 14px;
+	color: white;
+	font-weight: bolder;
+}
+
+#header ul li a:hover {
+	color: orangered;
+	text-decoration: underline;
+}
+
+#content {
+	width: 800px;
+	height: 466px;
+	margin: 0px auto;
+}
+
+#content .content-left {
+	background: url(../img/mainlf_bg.jpg) no-repeat;
+	float: left;
+	width: 64px;
+	height: 466px;
+}
+
+#content .content-main {
+	float: left;
+	width: 677px;
+	height: 466px;
+}
+
+#content .content-main .main-left {
+	float: left;
+	width: 190px;
+	border-left: 1px solid #BFBFBF;
+    border-right: 1px solid #C1C1C1;
+}
+
+#content .content-main .main-left .rainbow {
+	width: 190px;
+	height: 153px;
+	background-color: rgb(149, 136, 182);
+}
+
+#content .content-main .main-left .rainbow ul {
+	margin-top: 20px;
+}
+
+#content .content-main .main-left .rainbow ul li {
+	font-size: 13px;
+	text-align: left;
+	color: white;
+	margin: 5px;
+}
+
+#content .content-main .main-left .passthrow {
+	width: 190px;
+	height: 313px;
+	background-color: rgb(189, 179, 216);
+}
+
+#content .content-main .main-left .passthrow ul {
+	margin-top: 20px;
+}
+
+#content .content-main .main-left .passthrow ul li {
+	margin-top: 8px;
+}
+
+#content .content-main .main-left .passthrow ul li img:hover {
+	cursor: pointer;
+}
+
+#content .content-main .main-center {
+	float: left;
+	width: 243px;
+	border-left: 1px solid #BFBFBF;
+    border-right: 1px solid #C1C1C1;
+    margin: 0px 1px;
+}
+
+#content .content-main .main-center .news {
+	width: 243px;
+	height: 259px;
+}
+
+#content .content-main .main-center .comment {
+	width: 243px;
+	height: 207px;
+	/*background-color: lightgrey;*/
+	background: url(../img/expcont_bg.jpg) repeat-x;
+}
+
+#content .content-main .main-center ul li {
+	text-align: left;
+	line-height: 1.3;
+	padding: 0px 7px;
+}
+
+#content .content-main .main-center ul li a {
+	font-size: 8px;
+	font-weight: bolder;
+	color: #35254D;
+}
+
+#content .content-main .main-center ul li a:hover {
+	color: burlywood;
+	text-decoration: underline;
+}
+
+#content .content-main .main-right {
+	float: right;
+	border-left: 1px solid #BFBFBF;
+    border-right: 1px solid #C1C1C1;
+}
+
+#content .content-main .main-right .account {
+	width: 236px;
+	height: 155px;
+	text-align: left;
+	background-color: rgb(222, 223, 222);
+}
+
+#content .content-main .main-right .account ul {
+	margin-top: 17px;
+}
+
+#content .content-main .main-right .account ul li {
+	display: block;
+	height: 15px;
+	line-height: 15px;
+	font-size: 12px;
+	padding-left: 30px;
+	margin-top: -1px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	background-color: white;
+	color: slategray;
+}
+
+#content .content-main .main-right .account ul li:hover {
+	cursor: pointer;
+	font-size: 13px;
+}
+
+#content .content-main .main-right .search {
+	width: 236px;
+	height: 136px;
+	background-color: rgb(222, 223, 222);
+}
+
+#content .content-main .main-right .search p {
+	height: 25px;
+	line-height: 25px;
+	width: 100%;
+	font-size: 12px;
+}
+
+#content .content-main .main-right .search p select {
+	width: 100px;
+}
+
+#content .content-main .main-right .search .status {
+	margin: 0px 5px;
+}
+
+#content .content-main .main-right .information {
+	width: 236px;
+	height: 175px;
+	background-color: rgb(222, 223, 222);
+	text-align: left;
+	font-size: 12px;
+}
+
+#content .content-main .main-right .information p {
+	margin: 10px;
+}
+
+#content .content-main .main-right .information ul {
+	margin: 5px 0px 0px 10px;
+}
+
+#content .content-main .main-right .information ul li {
+	display: inline-block;
+}
+
+#content .content-main .main-right .information ul li a:hover {
+	color: burlywood;
+	text-decoration: underline;
+}
+
+#content .content-right {
+	float: left;
+	background: url(../img/mainrt_bg.jpg) no-repeat;
+	width: 59px;
+	height: 466px;
+	text-align: left;
+}
+
+#footer {
+	background: url(../img/footer_bg.jpg) no-repeat;
+	margin: 0px auto;
+	width: 800px;
+	height: 119px;
+	text-align: center;
+}
+
+#footer p {
+	line-height: 50px;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	font-weight: bolder;
+	font-family: '宋体';
+}
